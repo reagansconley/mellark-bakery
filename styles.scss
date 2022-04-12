@@ -61,3 +61,26 @@ body {
         }
     }
 }
+
+header {
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*
+    display: block;
+    */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        /*
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        */
+        background-color: green;
+    }
+}
