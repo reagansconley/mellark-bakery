@@ -69,4 +69,34 @@ body {
     text-align: left;
   }
 }
+
+header {
+  background-image: url(images/banner.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  /*
+    display: block;
+    */
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div {
+  /*
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        */
+  background-color: green;
+}
 /*# sourceMappingURL=styles.css.map */
